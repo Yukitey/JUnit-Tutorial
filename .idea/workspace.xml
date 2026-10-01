@@ -4,21 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a37604c5-19d5-4eb1-92f5-1b7c7cffa9f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yukitey/ArrayUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yukitey/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yukitey/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/yukitey/ArrayUtilsLifecycleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/yukitey/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/yukitey/LifecycleDemoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/yukitey/StringUtilsLifecycleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/yukitey/StringUtilsTest.java" afterDir="false" />
+    <list default="true" id="a37604c5-19d5-4eb1-92f5-1b7c7cffa9f8" name="Changes" comment="JU-0">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/yukitey/TimerAndThrowTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yukitey/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yukitey/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/yukitey/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yukitey/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,8 +60,8 @@
       <recent name="com.yukitey" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StringUtilsLifecycleTest">
-    <configuration name="StringUtilsLifecycleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TimerAndThrowTest.process_shouldPreemptivelyFinishIn1Second">
+    <configuration name="CalculatorTest.divide_shouldThrow_whenDivisorIsZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit" />
       <extension name="coverage">
         <pattern>
@@ -80,13 +70,45 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.yukitey" />
-      <option name="MAIN_CLASS_NAME" value="com.yukitey.StringUtilsLifecycleTest" />
+      <option name="MAIN_CLASS_NAME" value="com.yukitey.CalculatorTest" />
+      <option name="METHOD_NAME" value="divide_shouldThrow_whenDivisorIsZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.parse_shouldNotThrow_whenInputValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yukitey.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yukitey" />
+      <option name="MAIN_CLASS_NAME" value="com.yukitey.CalculatorTest" />
+      <option name="METHOD_NAME" value="parse_shouldNotThrow_whenInputValid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimerAndThrowTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yukitey.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yukitey" />
+      <option name="MAIN_CLASS_NAME" value="com.yukitey.TimerAndThrowTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringUtilsLifecycleTest.isPalindrome_levelingAsserParameterizedTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TimerAndThrowTest.process_shouldFinishIn1Second" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit" />
       <extension name="coverage">
         <pattern>
@@ -95,14 +117,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.yukitey" />
-      <option name="MAIN_CLASS_NAME" value="com.yukitey.StringUtilsLifecycleTest" />
-      <option name="METHOD_NAME" value="isPalindrome_levelingAsserParameterizedTrue(java.lang.String)" />
+      <option name="MAIN_CLASS_NAME" value="com.yukitey.TimerAndThrowTest" />
+      <option name="METHOD_NAME" value="process_shouldFinishIn1Second" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringUtilsLifecycleTest.isPalindrome_shouldReturnTrueMethodSource (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TimerAndThrowTest.process_shouldPreemptivelyFinishIn1Second" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit" />
       <extension name="coverage">
         <pattern>
@@ -111,40 +133,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.yukitey" />
-      <option name="MAIN_CLASS_NAME" value="com.yukitey.StringUtilsLifecycleTest" />
-      <option name="METHOD_NAME" value="isPalindrome_shouldReturnTrueMethodSource(java.lang.String,java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringUtilsLifecycleTest.isPalindrome_shouldReturnTrueMethodSource (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yukitey.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.yukitey" />
-      <option name="MAIN_CLASS_NAME" value="com.yukitey.StringUtilsLifecycleTest" />
-      <option name="METHOD_NAME" value="isPalindrome_shouldReturnTrueMethodSource(java.lang.String,boolean)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringUtilsLifecycleTest.revere_csvSourceString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yukitey.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.yukitey" />
-      <option name="MAIN_CLASS_NAME" value="com.yukitey.StringUtilsLifecycleTest" />
-      <option name="METHOD_NAME" value="revere_csvSourceString(java.lang.String,java.lang.String)" />
+      <option name="MAIN_CLASS_NAME" value="com.yukitey.TimerAndThrowTest" />
+      <option name="METHOD_NAME" value="process_shouldPreemptivelyFinishIn1Second" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StringUtilsLifecycleTest" />
-        <item itemvalue="JUnit.StringUtilsLifecycleTest.isPalindrome_levelingAsserParameterizedTrue" />
-        <item itemvalue="JUnit.StringUtilsLifecycleTest.revere_csvSourceString" />
-        <item itemvalue="JUnit.StringUtilsLifecycleTest.isPalindrome_shouldReturnTrueMethodSource (2)" />
-        <item itemvalue="JUnit.StringUtilsLifecycleTest.isPalindrome_shouldReturnTrueMethodSource (1)" />
+        <item itemvalue="JUnit.TimerAndThrowTest.process_shouldPreemptivelyFinishIn1Second" />
+        <item itemvalue="JUnit.TimerAndThrowTest.process_shouldFinishIn1Second" />
+        <item itemvalue="JUnit.TimerAndThrowTest" />
+        <item itemvalue="JUnit.CalculatorTest.parse_shouldNotThrow_whenInputValid" />
+        <item itemvalue="JUnit.CalculatorTest.divide_shouldThrow_whenDivisorIsZero" />
       </list>
     </recent_temporary>
   </component>
@@ -171,12 +161,24 @@
       <workItem from="1789466203784" duration="20928000" />
       <workItem from="1789679165875" duration="1134000" />
       <workItem from="1789720912983" duration="8366000" />
-      <workItem from="1790493081546" duration="2232000" />
+      <workItem from="1790493081546" duration="5037000" />
     </task>
+    <task id="LOCAL-00001" summary="JU-0">
+      <created>1790846638500</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1790846638500</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="JU-0" />
+    <option name="LAST_COMMIT_MESSAGE" value="JU-0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
